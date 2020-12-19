@@ -36,7 +36,7 @@
             Catalog item = (Catalog) items.elementAt(i);
     %>
             <tr>
-            <form name="removeItem" action="removeItem" method="POST">
+            <form name="remove" action="remove" method="POST">
                 <td><%= item.getDvdnames() %></td>
                 <td><%= item.getRate() %></td>
                 <td><%= item.getYearr() %></td>
